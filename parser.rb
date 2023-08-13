@@ -30,5 +30,5 @@ class Parser
   end 
 end 
 
-hobbyText = Parser.new('/home/dave/programming/ruby_git/project/textParser/urls.txt', 'result.txt')
+hobbyText = Parser.new('path to txt file with urls', 'name of result file with .txt')
 hobbyText.urlParseArray
